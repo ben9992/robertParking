@@ -1,0 +1,43 @@
+body {
+	font-family: "Arial", sans-serif;
+}
+
+#app {
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+.input-area {
+	margin-bottom: 20px;
+}
+
+.parking-lot {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.space {
+	background-color: #e1e1e1;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.space-number,
+.expected-cost,
+.details {
+	margin: 5px;
+}
+
+.result {
+	margin-top: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
